@@ -1,85 +1,50 @@
 <!DOCTYPE html>
 <html lang="ru">
- <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz-box</title>
- </head>
- <body>
-  <div class="wrapper">
-    <header class="header">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" />
+    <title>Quiz-box</title>
+  </head>
+  <body>
+    <div class="wrapper">
       <div class="container">
-        <a href="/" class="logo">
-          <img src="./img/logo.svg" alt="logo" class="logo__pic">
-        </a>
-        <nav class="nav">
-          <ul class="list">
-            <li class="nav__item">
-              <a href="" class="nav__link">
-                <span>Главная</span>
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="" class="nav__link">
-                <span>Игры </span>
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="" class="nav__link">
-                <span>Отзывы</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <address class="contacts">
-          <a href="" class="contacts__phone">
-            <span>8 800 700 30 30</span>
+        <header class="header">
+          <a href="index.html" class="logo__img">
+            <img src="./img/logo.svg" alt="Quiz-box logo" class="logo">
           </a>
-          <span class="contacts__shedyle">График работы</span>
-          <div class="contacts__dropdown"></div>
-        </address>
-      </div>
-    </header>
-    <main class="main">
-      <section class="section hero__section">
-        <div class="container">
-          <h1 class="hero__title">
-            Интеллектуальный вечер для шумной компании
-          </h1>
-          <div class="hero__desc">
-            <span>Игры на любой вкус</span>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Игры</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+          <addres class="contacts">
+            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+            <div class="contacts__dropdown-title">График работы</div>
+          </addres>
+        </header>
+        <div class="hero__content">
+          <div class="hero__text-section">
+            <h1 class="hero__title">Интеллектуальный 
+              вечер для шумной 
+              компании</h1>
+            <h4 class="hero__desc">Игры на любой вкус</h4>
+            <a href="#" class="btn">Подробнее</a>
           </div>
-          <a href="" class="hero__btn btn">
-            Подробнее
-          </a>
         </div>
-      </section>
-      <section class="section offers__section">
-        <div class="container">
-          <h3 class="section__title">
-            Новинки недели
-          </h3>
-          <!-- через css content::before добавить плашку -->
-          <ul class="offers__list">
-            <li class="offers__item">
-              <div class="offers__item-img"></div>
-              <div class="offers__item-title">
-                Музыкальная игра
-              </div>
-
-              <p class="offers__desc">
-                Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
-              </p>
-              <a href="" class="offers__btn btn">смотреть</a>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="section news__section"></section>
-      <section class="section about__section"></section>
-    </main>
-    <footer class="footer"></footer>
-  </div>
-</body>
+      </div>
+    </div>
+  </body>
 </html>
