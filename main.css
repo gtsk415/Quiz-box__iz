@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6 {
 .header {
   height: 120px;
   position: relative;
-  margin-bottom: 90px;
+  margin-bottom: 110px;
 }
 
 .logo {
@@ -47,18 +47,22 @@ h1,h2,h3,h4,h5,h6 {
 
 .menu {
   position: absolute;
-  top: 65px;
-  left: 250px;
+  top: 60px;
+  left: 420px;
 }
 
 .menu__item { 
   display: inline-block;
   vertical-align: middle;
-  margin-right: 50px;
+  margin-right: 65px;
+}
+
+.menu__item:last-child {
+  margin-right: 0px;
 }
 
 .menu__link {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .menu__link:hover {
@@ -68,7 +72,7 @@ h1,h2,h3,h4,h5,h6 {
 .contacts {
   text-align: right;
   position: absolute;
-  top: 48px;
+  top: 50px;
   right: 0px;
 }
 
@@ -89,16 +93,14 @@ h1,h2,h3,h4,h5,h6 {
 
 .hero__title {
   font-size: 60px;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1.1;
   margin-bottom: 18px;
 }
 
 .hero__subtitle {
-  width: 200px;
   font-size: 21px;
-  font-weight: bold;
-  margin-bottom: 70px;
+  margin-bottom: 90px;
 }
 
 .btn {
@@ -108,6 +110,9 @@ padding: 20px 40px;
 background: #8F00FF;
 border-radius: 5px;
 font-size: 14px;
+font-weight: bold;
+color: white;
+text-transform: uppercase;
 }
 
 .btn:hover {
