@@ -12,6 +12,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
 ul {
   padding: 0;
   margin: 0;
@@ -19,6 +20,11 @@ ul {
 
 ul li {
   list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  font-weight: normal;
 }
 
 .container {
@@ -29,6 +35,7 @@ ul li {
 .header {
   height: 120px;
   position: relative;
+  margin-bottom: 90px;
 }
 
 .logo {
@@ -42,12 +49,6 @@ ul li {
   position: absolute;
   top: 65px;
   left: 250px;
-}
-
-.contacts {
-  position: absolute;
-  top: 48px;
-  right: 0px;
 }
 
 .menu__item { 
@@ -66,6 +67,9 @@ ul li {
 
 .contacts {
   text-align: right;
+  position: absolute;
+  top: 48px;
+  right: 0px;
 }
 
 .contacts__phone {
@@ -76,5 +80,36 @@ ul li {
 .contacts__dropdown-title {
   font-size: 13px;
   text-decoration: underline;
-  color:#8F00FF;
+  color:#98A4A8;
+}
+
+.hero__text-section {
+  width: 650px;
+}
+
+.hero__title {
+  font-size: 60px;
+  font-weight: normal;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+
+.hero__subtitle {
+  width: 200px;
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+.btn {
+width: 170px;
+height: 55px;
+padding: 20px 40px;
+background: #8F00FF;
+border-radius: 5px;
+font-size: 14px;
+}
+
+.btn:hover {
+  background: #741BBA;
 }
